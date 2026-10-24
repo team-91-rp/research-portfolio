@@ -1,0 +1,45 @@
+{
+  "name": "team91-research-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "extract": "node scripts/extract.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "test": "vitest run",
+    "verify": "node scripts/extract.mjs && vitest run",
+    "verify:dist": "vitest run tests/absence.test.ts",
+    "check": "vitest run && tsc -b && vite build && vitest run tests/absence.test.ts",
+    "build:ci": "npm run check"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "d3-array": "^3.2.4",
+    "d3-scale": "^4.0.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/d3-array": "^3.2.2",
+    "@types/d3-scale": "^4.0.9",
+    "@types/node": "^24.19.2",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "papaparse": "^5.7.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  },
+  "description": "Team 91 research portfolio: predicting aqueous pollutant uptake by MOFs for unseen publications.",
+  "engines": {
+    "node": ">=20"
+  }
+}
