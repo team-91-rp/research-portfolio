@@ -35,7 +35,7 @@ export function Hero() {
     <section id="top" className="hero">
       <div className="page hero-grid">
         <div className="hero-copy">
-          <p className="hero-status">Research in progress. Paper draft v0.1, not peer reviewed.</p>
+          <p className="hero-status">Research in progress.</p>
           <h1>Will this MOF capture that pollutant?</h1>
           <p className="hero-sub">A leakage-audited dataset and a pretrained model that predicts MOF uptake from water, for publications it has never seen.</p>
           <div className="hero-cta">
