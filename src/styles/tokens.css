@@ -1,0 +1,35 @@
+:root {
+  /* palette: cool paper, ink, one teal accent; amber only for caveats */
+  --bg: #f5f8f7;
+  --surface: #ffffff;
+  --ink: #12201f;
+  --ink-2: #3a4846;
+  --muted: #566562;
+  --rule: #d8e1df;
+  --rule-strong: #b9c7c4;
+  --accent: #0e6b6b;
+  --accent-hover: #0a5555;
+  --accent-wash: #e2efed;
+  --accent-soft: #8fc2bd;
+  --amber-ink: #85500a;
+  --amber-wash: #fbf0db;
+  --amber-rule: #e6c98c;
+
+  --font-sans: 'Geist Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Newsreader', 'Iowan Old Style', Georgia, serif;
+
+  --radius: 6px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --page: 1120px;
+  --measure: 66ch;
+  --nav-h: 60px;
+
+  --step--1: clamp(0.82rem, 0.8rem + 0.1vw, 0.88rem);
+  --step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.5vw, 1.4rem);
+  --step-2: clamp(1.55rem, 1.3rem + 1.1vw, 2.1rem);
+  --step-3: clamp(2rem, 1.5rem + 2.2vw, 3.1rem);
+  --step-4: clamp(2.4rem, 1.7rem + 3.2vw, 4rem);
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
